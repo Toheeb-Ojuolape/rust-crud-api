@@ -2,8 +2,9 @@
 
 use rocket::*;
 use rocket_contrib::json::Json;
-use rusqlite::Connection;
 use serde::Serialize;
+use rusqlite::Connection;
+
 
 #[derive(Serialize)]
 struct ToDoList {
